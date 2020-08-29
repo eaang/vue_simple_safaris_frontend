@@ -4,21 +4,18 @@
 ** Docs: https://tailwindcss.com/docs/configuration
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
   },
   theme: {
-    extend: {
-      fontFamily: {
-        sans: [
-          'Noto Sans KR',
-          ...defaultTheme.fontFamily.sans,
-        ]
-      },
-    }
+    fontFamily: {
+      sans: ["Noto Sans KR"],
+      serif: ["Noto Sans KR"],
+      mono: ["Noto Sans KR"],
+      display: ["Noto Sans KR"],
+      body: ["Noto Sans KR"]
+    },
   },
   variants: {},
   plugins: [],
