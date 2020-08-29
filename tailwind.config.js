@@ -15,7 +15,7 @@ module.exports = {
       mono: ["Noto Sans KR"],
       display: ["Noto Sans KR"],
       body: ["Noto Sans KR"]
-    },
+    }
   },
   variants: {},
   plugins: [],
