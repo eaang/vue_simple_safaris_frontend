@@ -1,6 +1,7 @@
 <template>
   <div class="font-sans">
     <Nuxt />
+    <Footer />
   </div>
 </template>
 

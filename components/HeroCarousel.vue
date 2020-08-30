@@ -3,7 +3,7 @@
     <!-- Top Spacer Grid -->
     <div class=""></div>
     <!-- Carousel Navigation -->
-    <CarouselHeronav />
+    <CarouselBignav />
     <!-- Carousel Dots -->
     <CarouselDots :num-labels="5" />
   </div>
