@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-transparent py-6 absolute w-screen">
+  <nav class="bg-transparent py-6 absolute w-full">
     <div class="container mx-auto flex justify-between">
       <!-- Left Side of Navbar -->
       <div class="flex flex-1 items-center">
@@ -17,13 +17,7 @@
         <ul class="hidden lg:flex items-center font-bold">
           <li class="mr-8">
             <a class="text-gray-100 hover:text-gray-400" href="#">About</a>
-            <div class="absolute">
-              <ul class="relative dropdown-menu mt-2 py-4">
-                <li class="dropdown-item">About us</li>
-                <li class="dropdown-item">개인정보처리방침
-                <li class="dropdown-item">해외여행약관</li>
-              </ul>
-            </div>
+            <DropdownMenu />
           </li>
           <li class="mr-8">
             <a class="text-gray-100 hover:text-gray-400" href="#">Destinations</a>
