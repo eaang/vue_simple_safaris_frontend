@@ -52,7 +52,7 @@
       <div class="text-5xl text-center title-dark font-bold px-8">
         Design your own safari :)
       </div>
-      <div class="text-xl lg:text-2xl px-16 lg:px-32 text-center content-light my-16">
+      <div class="text-xl lg:text-2xl px-16 lg:px-32 text-center content-light my-8 lg:my-16">
         NO 눈치! NO 고민!<br />
         나만의 사라피 여행을 떠나보세요!!
       </div>
@@ -73,8 +73,8 @@
       <GallerySafari />
     </div>
 
-    <!-- Safari Gallery -->
-    <div class="my-24">
+    <!-- Partners -->
+    <div class="m-24">
       <div class="text-5xl text-center title-dark font-bold px-8 my-8">
         Our Partners
       </div>
