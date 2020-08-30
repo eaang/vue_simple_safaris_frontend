@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-end justify-center space-x-2 mb-8 ">
     <div class="dot filled"></div>
-    <div class="dot empty" v-for="idx in numLabels">
+    <div class="dot empty" v-for="idx in numLabels" :key="idx">
     </div>
   </div>
 </template>

@@ -26,11 +26,14 @@
     <DestinationMap />
 
     <!-- What's Your Style -->
-    <div class="section-background-dark py-24">
+    <div class="relative section-background-dark py-24">
       <div class="text-5xl text-center text-white font-bold pb-24 px-8">
         What's your style?
       </div>
       <CardsStyle />
+
+      <!-- Carousel Dots on Mobile -->
+      <CarouselDots class="m-8 xl:hidden" :num-labels="3" />
     </div>
   </section>
 </template>

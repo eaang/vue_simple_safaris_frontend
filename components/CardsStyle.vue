@@ -1,119 +1,132 @@
 <template>
-  <!-- Card Container -->
-  <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8">
+  <div class="relative flex">
+    <!-- Card Container -->
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
-    <!-- Selected Card -->
-    <div class="card card-selected">
-      <div class="card-image">
-        <div class="card-selected-sign absolute inset-0 absolute z-50">
-          +
-        </div>
-        <img class="" src="@/assets/images/trip1.png" />
-      </div>
+      <!-- Selected Card -->
+      <div class="card-wrapper hidden md:flex">
+        <div class="card card-selected">
+          <div class="card-image">
+            <div class="card-selected-sign absolute inset-0 absolute z-50">
+              +
+            </div>
+            <img class="" src="@/assets/images/trip1.png" />
+          </div>
 
-      <div class="card-body">
-        <div class="card-title">Taste of Africa</div>
-        <div class="card-text">
-          <div class="card-description">부가설명 부가설명 부가설명 부가설명 부가설명 부가설명 부가설명</div>
-          <div class="card-options">
-            <div class="card-options-title">Course 예상 가격</div>
-            <div class="card-description">
-              <div>3-5 Days $1,004.60</div>
-              <div>7-10 Days $1,004.60</div>
+          <div class="card-body">
+            <div class="card-title">Taste of Africa</div>
+            <div class="card-text">
+              <div class="card-description">부가설명 부가설명 부가설명 부가설명 부가설명 부가설명 부가설명</div>
+              <div class="card-options">
+                <div class="card-options-title">Course 예상 가격</div>
+                <div class="card-description">
+                  <div>3-5 Days $1,004.60</div>
+                  <div>7-10 Days $1,004.60</div>
+                </div>
+              </div>
+              <div class="card-end">
+                <span class="pr-4 text-xs">more</span>
+                <img class="object-contain" src="@/assets/more.svg" />
+              </div>
             </div>
           </div>
-          <div class="card-end">
-            <span class="pr-4 text-xs">more</span>
-            <img class="object-contain" src="@/assets/more.svg" />
-          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Normal Card -->
-    <div class="card">
-      <div class="card-image">
-        <img class="" src="@/assets/images/trip2.png" />
-      </div>
+      <!-- Normal Card -->
+      <div class="card-wrapper flex">
+        <div class="card">
+          <div class="card-image">
+            <img class="" src="@/assets/images/trip2.png" />
+          </div>
 
-      <div class="card-body">
-        <div class="card-title">East Africa Paradise</div>
-        <div class="card-text">
-          <div class="card-description">부가설명 부가설명 부가설명 부가설명 부가설명 부가설명 부가설명</div>
-          <div class="card-options">
-            <div class="card-options-title">Course 예상 가격</div>
-            <div class="card-description">
-              <div>3-5 Days $1,004.60</div>
-              <div>7-10 Days $1,004.60</div>
+          <div class="card-body">
+            <div class="card-title">East Africa Paradise</div>
+            <div class="card-text">
+              <div class="card-description">부가설명 부가설명 부가설명 부가설명 부가설명 부가설명 부가설명</div>
+              <div class="card-options">
+                <div class="card-options-title">Course 예상 가격</div>
+                <div class="card-description">
+                  <div>3-5 Days $1,004.60</div>
+                  <div>7-10 Days $1,004.60</div>
+                </div>
+              </div>
+              <div class="card-end">
+                <span class="pr-4 text-xs">more</span>
+                <img class="object-contain" src="@/assets/more.svg" />
+              </div>
             </div>
           </div>
-          <div class="card-end">
-            <span class="pr-4 text-xs">more</span>
-            <img class="object-contain" src="@/assets/more.svg" />
-          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Normal Card -->
-    <div class="card">
-      <div class="card-image">
-        <img class="" src="@/assets/images/trip3.png" />
-      </div>
+      <!-- Normal Card -->
+      <div class="card-wrapper hidden lg:flex">
+        <div class="card">
+          <div class="card-image">
+            <img class="" src="@/assets/images/trip3.png" />
+          </div>
 
-      <div class="card-body">
-        <div class="card-title">Safari Lover</div>
-        <div class="card-text">
-          <div class="card-description">부가설명 부가설명 부가설명 부가설명 부가설명 부가설명 부가설명</div>
-          <div class="card-options">
-            <div class="card-options-title">Course 예상 가격</div>
-            <div class="card-description">
-              <div>3-5 Days $1,004.60</div>
-              <div>7-10 Days $1,004.60</div>
+          <div class="card-body">
+            <div class="card-title">Safari Lover</div>
+            <div class="card-text">
+              <div class="card-description">부가설명 부가설명 부가설명 부가설명 부가설명 부가설명 부가설명</div>
+              <div class="card-options">
+                <div class="card-options-title">Course 예상 가격</div>
+                <div class="card-description">
+                  <div>3-5 Days $1,004.60</div>
+                  <div>7-10 Days $1,004.60</div>
+                </div>
+              </div>
+              <div class="card-end">
+                <span class="pr-4 text-xs">more</span>
+                <img class="object-contain" src="@/assets/more.svg" />
+              </div>
             </div>
           </div>
-          <div class="card-end">
-            <span class="pr-4 text-xs">more</span>
-            <img class="object-contain" src="@/assets/more.svg" />
-          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Normal Card -->
-    <div class="card">
-      <div class="card-image">
-        <img class="" src="@/assets/images/trip4.png" />
-      </div>
+      <!-- Normal Card -->
+      <div class="card-wrapper hidden xl:flex">
+        <div class="card">
+          <div class="card-image">
+            <img class="" src="@/assets/images/trip4.png" />
+          </div>
 
-      <div class="card-body">
-        <div class="card-title">Vacation</div>
-        <div class="card-text">
-          <div class="card-description">부가설명 부가설명 부가설명 부가설명 부가설명 부가설명 부가설명</div>
-          <div class="card-options">
-            <div class="card-options-title">Course 예상 가격</div>
-            <div class="card-description">
-              <div>3-5 Days $1,004.60</div>
-              <div>7-10 Days $1,004.60</div>
+          <div class="card-body">
+            <div class="card-title">Vacation</div>
+            <div class="card-text">
+              <div class="card-description">부가설명 부가설명 부가설명 부가설명 부가설명 부가설명 부가설명</div>
+              <div class="card-options">
+                <div class="card-options-title">Course 예상 가격</div>
+                <div class="card-description">
+                  <div>3-5 Days $1,004.60</div>
+                  <div>7-10 Days $1,004.60</div>
+                </div>
+              </div>
+              <div class="card-end">
+                <span class="pr-4 text-xs">more</span>
+                <img class="object-contain" src="@/assets/more.svg" />
+              </div>
             </div>
           </div>
-          <div class="card-end">
-            <span class="pr-4 text-xs">more</span>
-            <img class="object-contain" src="@/assets/more.svg" />
-          </div>
         </div>
       </div>
+      <!-- End of Card Container -->
     </div>
-
-    <!-- Carousel Buttons on Mobile -->
-    <CarouselButtons class="hidden " :num-labels="4" />
-
-  <!-- End of Card Container -->
+    <div class="absolute inset-0 flex flex-1 flex-col justify-center xl:hidden">
+      <CarouselNormalnav />
+    </div>
   </div>
 </template>
 
 <style scoped>
+.card-wrapper {
+  @apply w-full justify-center;
+}
 .card {
+  width: 300px;
   @apply bg-white shadow-xl;
 }
 .card-image {
