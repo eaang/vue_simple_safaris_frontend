@@ -1,9 +1,9 @@
 <template>
-  <div class="navbar-side flex flex-col justify-between h-screen w-5/6 z-50 p-8 block lg:hidden">
+  <div class="navbar-side flex flex-col justify-between h-screen w-5/6 z-50 pl-8 py-8 block lg:hidden">
     <div>
       <!-- Close Button -->
       <div class="navbar-side-close flex justify-end">
-        <img src="@/assets/btn-closed.svg">
+        <img class="pr-8" src="@/assets/btn-closed.svg">
       </div>
 
       <!-- Links to Pages -->
@@ -13,13 +13,13 @@
         </div>
         <div class="navbar-side-link">
           <a href="#">About</a>
-          <div class="navbar-side-expand"><img src="@/assets/btn-add.svg"></div>
-          <div class="navbar-side-collapse hidden"><img src="@/assets/btn-minus.svg"></div>
+          <div class="navbar-side-expand pr-8"><img src="@/assets/btn-add.svg"></div>
+          <div class="navbar-side-collapse hidden pr-8"><img src="@/assets/btn-minus.svg"></div>
         </div>
         <div class="navbar-side-link">
           <a href="#">Destinations</a>
-          <div class="navbar-side-expand hidden"><img src="@/assets/btn-add.svg"></div>
-          <div class="navbar-side-collapse"><img src="@/assets/btn-minus.svg"></div>
+          <div class="navbar-side-expand hidden pr-8"><img src="@/assets/btn-add.svg"></div>
+          <div class="navbar-side-collapse pr-8"><img src="@/assets/btn-minus.svg"></div>
         </div>
 
         <!-- Dropdown Options -->
@@ -27,8 +27,8 @@
 
         <div class="navbar-side-link">
           <a href="#">Trip Ideas</a>
-          <div class="navbar-side-expand"><img src="@/assets/btn-add.svg"></div>
-          <div class="navbar-side-collapse hidden"><img src="@/assets/btn-minus.svg"></div>
+          <div class="navbar-side-expand pr-8"><img src="@/assets/btn-add.svg"></div>
+          <div class="navbar-side-collapse hidden pr-8"><img src="@/assets/btn-minus.svg"></div>
         </div>
         <div class="navbar-side-link">
           <a href="#">Blog</a>
