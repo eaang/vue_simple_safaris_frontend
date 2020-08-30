@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-transparent py-6 fixed w-screen">
+  <nav class="bg-transparent py-6 absolute w-screen">
     <div class="container mx-auto flex justify-between">
       <!-- Left Side of Navbar -->
       <div class="flex flex-1 items-center">
