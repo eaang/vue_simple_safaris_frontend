@@ -29,7 +29,7 @@
           </li>
           <li>
             <button
-              class="border-2 border-gray-100 font-bold text-gray-100 hover:bg-white hover:text-black px-4 py-2 rounded-lg"
+              class="border border-gray-100 font-bold text-gray-100 hover:bg-white hover:text-black px-4 py-2 rounded-lg"
               href="#"
             >Contact Us</button>
           </li>
