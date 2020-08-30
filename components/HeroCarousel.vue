@@ -12,31 +12,15 @@
       </div>
     </div>
     <!-- Carousel Dots -->
-    <div class="flex items-end justify-center space-x-2 mb-8 ">
-      <div class="dot filled"></div>
-      <div class="dot empty"></div>
-      <div class="dot empty"></div>
-      <div class="dot empty"></div>
-      <div class="dot empty"></div>
-      <div class="dot empty"></div>
-    </div>
+    <CarouselButtons :num-labels="5" />
   </div>
 </template>
+
+<script>
+</script>
 
 <style>
   .hero-pic {
     background: url('../assets/images/hero-pic.jpg') no-repeat center center / cover;
-  }
-  .dot {
-    @apply rounded-full h-3 w-3;
-  }
-  .empty {
-    @apply border border-gray-100;
-  }
-  .empty:hover {
-    @apply bg-gray-100;
-  }
-  .filled {
-    @apply bg-gray-100;
   }
 </style>

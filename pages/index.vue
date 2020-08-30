@@ -26,8 +26,8 @@
     <DestinationMap />
 
     <!-- What's Your Style -->
-    <div class="section-background-dark">
-      <div class="text-5xl text-center text-white font-bold py-24">
+    <div class="section-background-dark py-24">
+      <div class="text-5xl text-center text-white font-bold pb-24 px-8">
         What's your style?
       </div>
       <CardsStyle />

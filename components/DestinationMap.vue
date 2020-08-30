@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-24">
 
     <!-- Section Title -->
     <div class="font-bold title-dark text-5xl text-center py-24 xl:py-0 xl:pb-24">
