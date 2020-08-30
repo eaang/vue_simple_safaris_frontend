@@ -31,7 +31,10 @@
     @apply rounded-full h-3 w-3;
   }
   .empty {
-    @apply border border-white;
+    @apply border border-gray-100;
+  }
+  .empty:hover {
+    @apply bg-gray-100;
   }
   .filled {
     @apply bg-gray-100;
