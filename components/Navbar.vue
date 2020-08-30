@@ -2,7 +2,7 @@
   <nav class="bg-transparent py-6 fixed w-screen">
     <div class="container mx-auto flex justify-between">
       <!-- Left Side of Navbar -->
-      <div class="flex items-center">
+      <div class="flex flex-1 items-center">
         <!-- Hamburger Icon -->
         <div class="block lg:hidden menu-icon text-gray-100 text-3xl ml-4 w-4 sm:w-24">
           <font-awesome-icon :icon="['fas', 'bars']"/>
@@ -37,7 +37,10 @@
       </div>
       <!-- Social Media Icons -->
       <ul id="social-media-buttons" class="flex items-center hidden sm:flex">
-        <span class="font-bold text-gray-100 mr-6 hidden xl:block">Call us at 070-4517-0225</span>
+        <div class="font-bold text-gray-100 mr-6 hidden xl:flex items-center">
+          <div><font-awesome-icon class="text-2xl mr-2" :icon="['fas', 'phone']"/></div>
+          <div>070-4517-0225</div>
+        </div>
         <li class="mr-8">
           <a class="" href="#">
             <img class="w-8 hover:opacity-75" src="@/assets/ic-instargram.svg" />
