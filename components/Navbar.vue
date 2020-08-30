@@ -14,9 +14,16 @@
         <!-- Spacer to centre logo on mobile screens -->
         <div class="w-8 sm:hidden"></div>
         <!-- Menu Links -->
-        <ul id="menu-links" class="hidden lg:flex items-center font-bold">
+        <ul class="hidden lg:flex items-center font-bold">
           <li class="mr-8">
             <a class="text-gray-100 hover:text-gray-400" href="#">About</a>
+            <div class="absolute">
+              <ul class="relative dropdown-menu mt-2 py-4">
+                <li class="dropdown-item">About us</li>
+                <li class="dropdown-item">개인정보처리방침
+                <li class="dropdown-item">해외여행약관</li>
+              </ul>
+            </div>
           </li>
           <li class="mr-8">
             <a class="text-gray-100 hover:text-gray-400" href="#">Destinations</a>
@@ -57,4 +64,15 @@
 </template>
 
 <style>
+.dropdown-menu {
+  background-color: #1a1915;
+}
+.dropdown-item {
+  color: #9c9780;
+  @apply px-4 py-2 font-normal;
+}
+.dropdown-item:hover {
+  background-color: #827F6A;
+  @apply font-bold text-white;
+}
 </style>
