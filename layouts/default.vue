@@ -1,5 +1,6 @@
 <template>
   <div class="font-sans">
+    <NavbarSide class="absolute" />
     <Nuxt />
     <Footer />
     <CopyrightInfo />

@@ -1,6 +1,6 @@
 <template>
   <section >
-    <NavbarTransparent />
+    <NavbarTransparent class="z-40" />
     <HeroCarousel />
 
     <!-- Introduction -->
