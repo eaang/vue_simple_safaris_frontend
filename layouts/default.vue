@@ -2,6 +2,7 @@
   <div class="font-sans">
     <Nuxt />
     <Footer />
+    <CopyrightInfo />
   </div>
 </template>
 
