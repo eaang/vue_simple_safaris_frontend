@@ -1,11 +1,12 @@
 <template>
   <div class="contact-form container">
 
-    <div class="w-3/5 mx-auto my-16">
+    <div class="w-4/5 md:w-3/5 mx-auto my-16">
       <!-- Contact Information -->
       <FormulateInput
         wrapper-class="mb-8"
         input-class="text-input"
+        label-class="text-2xl"
         name="name"
         label="성함"
         placeholder="홍길동"
@@ -13,6 +14,7 @@
       <FormulateInput
         wrapper-class="mb-8"
         input-class="text-input"
+        label-class="text-2xl"
         name="phone"
         label="연락처"
         placeholder="010-1234-5678"
@@ -20,6 +22,7 @@
       <FormulateInput
         wrapper-class="mb-8"
         input-class="text-input"
+        label-class="text-2xl"
         name="email"
         label="이메일"
         placeholder="이메일 주소 입력"
@@ -92,6 +95,7 @@
         <div class="grid grid-cols-2 gap-4">
           <FormulateInput
             input-class="text-input"
+        label-class="text-2xl"
             name="days"
             label="희망 여행 일수"
             type="select"
@@ -100,6 +104,7 @@
           />
           <FormulateInput
             input-class="text-input"
+        label-class="text-2xl"
             name="budget"
             label="1인 여행 예산"
             type="select"
@@ -111,6 +116,7 @@
 
       <!-- Countries -->
       <FormulateInput
+        label-class="text-2xl"
         v-model="value"
         outer-class="mb-8"
         element-class="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5"
@@ -124,7 +130,10 @@
 
       <!-- Trip Nature -->
       <FormulateInput
+        outer-class="mb-8"
+        label-class="text-2xl"
         v-model="value"
+        element-class="grid grid-cols-1 md:grid-cols-2"
         :options="{
           해본적이있다: '해본 적이 있다', 
           지인중해본사람이있다: '지인 중 해본 사람이 있다', 
@@ -136,7 +145,10 @@
 
       <!-- Activities -->
       <FormulateInput
+        outer-class="mb-8"
+        label-class="text-2xl"
         v-model="value"
+        element-class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         :options="{
           승마사파리: '승마 사파리', 워킹사파리: '워킹 사파리', 야간사파리: '야간 사파리', 열기구탑승: '열기구 탑승',
           현지문화체험: '현지문화체험', 와인테이스팅: '와인 테이스팅', 리버크루즈: '리버 크루즈', 카누: '카누',
@@ -149,14 +161,21 @@
       <!-- Notes -->
       <FormulateInput
         type="textarea"
+        outer-class="mb-8"
+        label-class="text-2xl"
+        input-class="text-input h-64"
         placeholder="최대한 자세하게 서술해주세요"
         label="사파리여행에서 희망하는 점"
       />
 
-      <FormulateInput
-        type="submit"
-        label="Send"
-      />
+      <!-- Submit Button -->
+      <div class="flex justify-center">
+        <FormulateInput
+          input-class="contact-button"
+          type="submit"
+          label="Send"
+        />
+      </div>
 
     </div>
 
@@ -167,17 +186,25 @@
 </script>
 
 <style>
+  .contact-button {
+    background-color: #646152;
+    @apply text-white rounded text-3xl px-16 py-4;
+  }
+  .contact-button:hover {
+    background-color: #1a1915;
+  }
   .contact-form {
     border-top: 3px solid #9c9780;
     border-bottom: 3px solid #9c9780;
     background-color: #F0F0ED;
+    color: #1a1915;
   }
   .text-input {
     border: 1px solid #c7c7c1;
     @apply p-3 w-full mt-2;
   }
   .contact-group-label {
-    @apply text-xl mb-4;
+    @apply text-2xl mb-4;
   }
   .grey-text {
     color: #c0c0c0;
@@ -186,9 +213,52 @@
     @apply mt-4 mb-2;
     display: flex;
   }
+  .formulate-input-element--radio input {
+    position: absolute;
+    opacity: 0;
+    & + label {
+      position: relative;
+      cursor: pointer;
+    }
+    & + label:before {
+      @apply rounded-full;
+      margin-right: .5rem;
+      content: '';
+      border: 1px solid #c7c7c1;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 2rem;
+      height: 2rem;
+      background: white;
+    }
+    &:hover + label:before {
+      background-color: #9c9780;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &:focus + label:before {
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+    &:checked + label:before {
+      background-color: #9c9780;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &:disabled + label {
+      color: #b8b8b8;
+      cursor: auto;
+    }
+    &:disabled + label:before {
+      box-shadow: none;
+      background: #ddd;
+    }
+  }
   .formulate-input-element--checkbox input {
     position: absolute;
     opacity: 0;
+    /* stylelint-disable */
     & + label {
       position: relative;
       cursor: pointer;
@@ -204,21 +274,19 @@
       background: white;
     }
     &:hover + label:before {
-      color: #9c9780;
+      background-color: #9c9780;
       display: flex;
       justify-content: center;
       align-items: center;
-      content: '✔';
     }
     &:focus + label:before {
       box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
     }
     &:checked + label:before {
-      color: #9c9780;
+      background-color: #9c9780;
       display: flex;
       justify-content: center;
       align-items: center;
-      content: '✔';
     }
     &:disabled + label {
       color: #b8b8b8;
@@ -228,5 +296,6 @@
       box-shadow: none;
       background: #ddd;
     }
+    /* stylelint-enable */
   }
 </style>
