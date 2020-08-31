@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavbarTransparent class="z-40" />
-    <HeroCarousel />
+    <CarouselHero />
 
     <!-- Introduction -->
     <div class="container mx-auto">
@@ -37,13 +37,13 @@
     </div>
 
     <!-- Reviews -->
-    <div class="my-24 mx-8 lg:m-24">
+    <div class="container mx-auto mt-24">
       <div class="section-background-light py-8 lg:py-24">
         <div class="text-5xl text-center text-white font-bold pb-8 px-8">
           Reviews
         </div>
         <!-- Review Section -->
-        <ReviewCarousel />
+        <CarouselReview />
       </div>
     </div>
 
