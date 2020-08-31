@@ -5,7 +5,7 @@
     </div>
 
     <!-- Profile Section -->
-    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2">
+    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
 
       <!-- Profile Card -->
       <div class="profile-card">
@@ -86,9 +86,6 @@
 </template>
 
 <style scoped>
-.profile-card {
-  @apply my-8;
-}
 .profile-name {
   @apply font-bold text-center p-4;
 }

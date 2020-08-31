@@ -8,6 +8,8 @@
     <!-- Founders -->
     <AboutFounders />
 
+    <!-- Map -->
+    <AboutMap />
   </div>
 </template>
 
