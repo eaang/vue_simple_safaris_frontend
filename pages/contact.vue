@@ -13,7 +13,7 @@
             “아침에 일어날때 한번도 불쾌한 마음이 들지 않았던 그곳... 그곳이 바로 아프리카였다.”
           </div>
           <div class="text-xl lg:text-2xl text-center light-text">
-            소설가 Ernest Hemmingway
+            소설가 Ernest Hemingway
           </div>
         </div>
       </div>
