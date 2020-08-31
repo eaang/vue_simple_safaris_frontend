@@ -74,7 +74,7 @@
     </div>
 
     <!-- Partners -->
-    <div class="m-24">
+    <div class="my-24">
       <div class="text-5xl text-center title-dark font-bold px-8 my-8">
         Our Partners
       </div>
