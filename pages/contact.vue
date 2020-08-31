@@ -4,7 +4,7 @@
 
     <!-- Header Section -->
     <div class="">
-      <div class="bg-local contact-pic h-screen/75 relative">
+      <div class="bg-local contact-pic h-screen/2 relative">
         <div class="h-screen/2 text-white text-5xl text-center flex justify-center items-center pt-8">
           Contact us
         </div>
