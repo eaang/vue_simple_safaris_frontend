@@ -19,7 +19,7 @@
         <ul class="hidden lg:flex items-center font-bold">
           <li class="mr-8">
             <a class="text-gray-100 hover:text-gray-400" href="/about">About</a>
-            <DropdownMenu />
+            <DropdownMenu class="mt-4" />
           </li>
           <li class="mr-8">
             <a class="text-gray-100 hover:text-gray-400" href="#">Destinations</a>

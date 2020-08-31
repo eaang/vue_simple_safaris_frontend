@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-white py-2 absolute w-full">
+  <nav class="bg-white py-2 absolute w-full z-30">
     <div class="container mx-auto flex justify-between">
       <!-- Left Side of Navbar -->
       <div class="flex flex-1 items-center">
@@ -19,7 +19,7 @@
         <ul class="hidden lg:flex items-center font-bold">
           <li class="mr-8">
             <a class="navbar-dark-text hover:text-gray-400" href="/about">About</a>
-            <DropdownMenu />
+            <DropdownMenu class="mt-1" />
           </li>
           <li class="mr-8">
             <a class="navbar-dark-text hover:text-gray-400" href="#">Destinations</a>
