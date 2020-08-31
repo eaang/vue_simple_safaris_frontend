@@ -4,9 +4,8 @@
       <!-- Left Side of Navbar -->
       <div class="flex flex-1 items-center">
         <!-- Hamburger Icon -->
-        <div class="block lg:hidden menu-icon text-gray-100 text-3xl ml-4 w-4 sm:w-24">
-          <font-awesome-icon :icon="['fas', 'bars']"/>
-        </div>
+        <NavbarBurger class="text-gray-100" />
+
         <!-- Logo -->
         <div class="logo flex flex-1 lg:flex-none items-center justify-around lg:mr-8">
           <a href="/">
