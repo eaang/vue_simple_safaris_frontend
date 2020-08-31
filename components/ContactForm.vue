@@ -78,7 +78,6 @@
             <FormulateInput
               wrapper-class="flex items-center mt-4"
               label-class="grey-text text-lg"
-              v-model="value"
               type="checkbox"
               label="여행일자 미정"
             />
@@ -117,7 +116,6 @@
       <!-- Countries -->
       <FormulateInput
         label-class="text-2xl"
-        v-model="value"
         outer-class="mb-8"
         element-class="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5"
         :options="{
@@ -132,7 +130,6 @@
       <FormulateInput
         outer-class="mb-8"
         label-class="text-2xl"
-        v-model="value"
         element-class="grid grid-cols-1 md:grid-cols-2"
         :options="{
           해본적이있다: '해본 적이 있다', 
@@ -147,7 +144,6 @@
       <FormulateInput
         outer-class="mb-8"
         label-class="text-2xl"
-        v-model="value"
         element-class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         :options="{
           승마사파리: '승마 사파리', 워킹사파리: '워킹 사파리', 야간사파리: '야간 사파리', 열기구탑승: '열기구 탑승',
