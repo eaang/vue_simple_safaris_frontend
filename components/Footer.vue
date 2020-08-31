@@ -2,12 +2,16 @@
   <div class="footer py-16">
     <div class="container px-8 mx-auto grid grid-flow-row grid-cols-1 xl:grid-cols-6 gap-4">
       <!-- Footer Logo -->
-      <div class="hidden xl:block"><img src="@/assets/logo-ft.png"></div>
+      <div class="hidden xl:block">
+        <a href="/">
+          <div class="logo-text text-xl menu-title">SIMPLE SAFARIS</div>
+        </a>
+      </div>
 
       <!-- Menu Section -->
       <div class="menu-section hidden xl:block">
-        <div class="menu-header">
-          About
+        <div class="menu-title menu-header">
+          <a href="/about">About</a>
         </div>
         <div class="menu-items">
           <div class="menu-item"><a href="#">About us</a></div>
@@ -18,7 +22,7 @@
 
       <!-- Menu Section -->
       <div class="menu-section hidden xl:block">
-        <div class="menu-header">
+        <div class="menu-title menu-header">
           Trip Style
         </div>
         <div class="menu-items">
@@ -30,7 +34,7 @@
 
       <!-- Menu Section -->
       <div class="menu-section hidden xl:block">
-        <div class="menu-header">
+        <div class="menu-title menu-header">
           Destination
         </div>
         <div class="menu-items">
@@ -44,7 +48,7 @@
 
       <!-- Menu Section -->
       <div class="menu-section">
-        <div class="menu-header">
+        <div class="menu-title menu-header">
           Contact
         </div>
         <div class="menu-items">
@@ -55,7 +59,7 @@
 
       <!-- Menu Section -->
       <div class="menu-section">
-        <div class="menu-header hidden xl:inline-block">
+        <div class="menu-title menu-header hidden xl:inline-block">
           Stay in touch
         </div>
         <div class="menu-items flex space-x-2">
@@ -79,9 +83,12 @@
 .footer {
   background-color: #1a1915;
 }
-.menu-header {
+.menu-title {
   color: #9c9780;
-  @apply font-bold text-lg mb-2;
+  @apply font-bold;
+}
+.menu-header {
+  @apply text-lg mb-2;
 }
 .menu-item {
   color: rgba(156, 151, 128, 0.47);

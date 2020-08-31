@@ -1,5 +1,5 @@
 <template>
-  <section >
+  <div>
     <NavbarTransparent class="z-40" />
     <HeroCarousel />
 
@@ -80,7 +80,7 @@
       </div>
       <GalleryPartners />
     </div>
-  </section>
+  </div>
 </template>
 
 <style>

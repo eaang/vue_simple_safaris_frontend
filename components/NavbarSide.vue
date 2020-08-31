@@ -12,7 +12,7 @@
           <a href="#">Home</a>
         </div>
         <div class="navbar-side-link">
-          <a href="#">About</a>
+          <a href="/about">About</a>
           <div class="navbar-side-expand pr-8"><img src="@/assets/btn-add.svg"></div>
           <div class="navbar-side-collapse hidden pr-8"><img src="@/assets/btn-minus.svg"></div>
         </div>

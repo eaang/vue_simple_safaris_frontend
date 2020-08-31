@@ -13,4 +13,8 @@ html {
   line-break:strict;
   word-break:keep-all;
 }
+.logo-text {
+  font-family: proxima-nova, sans-serif;
+  @apply font-bold;
+}
 </style>
