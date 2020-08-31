@@ -33,7 +33,7 @@
           <li>
             <button
               class="border border-gray-100 font-bold navbar-dark-text hover:bg-white hover:text-black px-4 py-2 rounded-lg"
-              href="#"
+              href="/contact"
             >Contact Us</button>
           </li>
         </ul>
