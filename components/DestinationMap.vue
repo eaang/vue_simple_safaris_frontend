@@ -13,14 +13,14 @@
         <div>
           <ul class="grid grid-flow-col xl:grid-flow-row">
             <li class="picker picker-bold">
-              아프리카(Africa)
+              아프리카 (Africa)
               <!-- Dropdown or Dropright icon -->
               <div class="ml-4">
                 <span class="hidden xl:block"><font-awesome-icon :icon="['fas', 'angle-right']"/></span>
                 <span class="block xl:hidden"><font-awesome-icon :icon="['fas', 'angle-down']"/></span>
               </div>
             </li>
-            <li class="picker picker-plain">아시아(Asia)</li>
+            <li class="picker picker-plain">아시아 (Asia)</li>
           </ul>
         </div>
         <!-- Destinations -->
