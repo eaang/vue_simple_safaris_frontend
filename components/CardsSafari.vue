@@ -16,7 +16,7 @@
           <div class="card-body">
             <div class="card-title">
               사파리 여행의 게임 드라이브<br />
-              (Game Dirve)에 꼭 알아야<br />
+              (Game Drive)에 꼭 알아야<br />
               할점 13가지 -5편-<br />
             </div>
             <div class="card-text">
@@ -38,7 +38,7 @@
           <div class="card-body">
             <div class="card-title">
               사파리 여행의 게임 드라이브<br />
-              (Game Dirve)에 꼭 알아야<br />
+              (Game Drive)에 꼭 알아야<br />
               할점 13가지 -5편-<br />
             </div>
             <div class="card-text">
@@ -60,7 +60,7 @@
           <div class="card-body">
             <div class="card-title">
               사파리 여행의 게임 드라이브<br />
-              (Game Dirve)에 꼭 알아야<br />
+              (Game Drive)에 꼭 알아야<br />
               할점 13가지 -5편-<br />
             </div>
             <div class="card-text">
@@ -82,7 +82,7 @@
           <div class="card-body">
             <div class="card-title">
               사파리 여행의 게임 드라이브<br />
-              (Game Dirve)에 꼭 알아야<br />
+              (Game Drive)에 꼭 알아야<br />
               할점 13가지 -5편-<br />
             </div>
             <div class="card-text">

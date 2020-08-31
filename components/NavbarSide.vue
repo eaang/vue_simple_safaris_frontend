@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar-side flex flex-col justify-between h-screen w-5/6 z-50 pl-8 py-8 block lg:hidden">
+  <div class="navbar-side flex flex-col justify-between h-screen w-5/6 z-50 pl-8 py-8 block overflow-auto lg:hidden">
     <div>
       <!-- Close Button -->
       <div class="navbar-side-close flex justify-end">
@@ -12,7 +12,7 @@
           <a href="#">Home</a>
         </div>
         <div class="navbar-side-link">
-          <a href="/about">About</a>
+          <a href="#">About</a>
           <div class="navbar-side-expand pr-8"><img src="@/assets/btn-add.svg"></div>
           <div class="navbar-side-collapse hidden pr-8"><img src="@/assets/btn-minus.svg"></div>
         </div>
@@ -40,7 +40,7 @@
     </div>
 
     <!-- Contact Info -->
-    <div class="navbar-side-bottom space-y-4 mt-8">
+    <div class="navbar-side-bottom space-y-4 mt-8 pb-8">
       <div class="navbar-side-social-media flex space-x-2">
         <div class="navbar-side-social-media-icon">
           <img src="@/assets/ic-instargram-ft.svg">
@@ -70,7 +70,7 @@
 .navbar-side-link {
   color: #9c9780;
   border-bottom: 1px solid rgba(156, 151, 128, .3);
-  @apply font-bold text-3xl py-2 border-b flex justify-between;
+  @apply font-bold text-3xl py-2 border-b flex justify-between items-center;
 }
 .navbar-side-link a:hover {
   @apply underline;

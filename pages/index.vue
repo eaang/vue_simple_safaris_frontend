@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavbarTransparent class="z-40" />
-    <HeroCarousel />
+    <CarouselHero />
 
     <!-- Introduction -->
     <div class="container mx-auto">
@@ -37,13 +37,13 @@
     </div>
 
     <!-- Reviews -->
-    <div class="my-24 mx-8 lg:m-24">
+    <div class="container mx-auto mt-24">
       <div class="section-background-light py-8 lg:py-24">
         <div class="text-5xl text-center text-white font-bold pb-8 px-8">
           Reviews
         </div>
         <!-- Review Section -->
-        <ReviewCarousel />
+        <CarouselReview />
       </div>
     </div>
 
@@ -52,9 +52,10 @@
       <div class="text-5xl text-center title-dark font-bold px-8">
         Design your own safari :)
       </div>
-      <div class="text-xl lg:text-2xl px-16 lg:px-32 text-center content-light my-8 lg:my-16">
+      <div class="flex flex-col items-center xl:relative container mx-auto text-xl lg:text-2xl text-center content-light my-8 lg:my-16">
         NO 눈치! NO 고민!<br />
         나만의 사라피 여행을 떠나보세요!!
+        <ButtonSafari class="xl:absolute xl:inset-y-0 xl:right-0 mt-8 xl:mt-0" />
       </div>
       <div class="text-4xl font-bold px-16 lg:px-32 text-center content-medium my-8">
         Travel Knowhow
@@ -68,13 +69,13 @@
     <!-- Safari Gallery -->
     <div class="my-24">
       <div class="text-4xl font-bold px-16 lg:px-32 text-center content-medium my-8">
-        Safari gallery
+        Safari Gallery
       </div>
       <GallerySafari />
     </div>
 
     <!-- Partners -->
-    <div class="m-24">
+    <div class="my-24">
       <div class="text-5xl text-center title-dark font-bold px-8 my-8">
         Our Partners
       </div>

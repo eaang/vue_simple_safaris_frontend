@@ -13,7 +13,6 @@
       <span class="text-white text-xl lg:text-2xl">
       글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 
       글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 
-      글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용 글내용
       </span>
     </div>
     <div class="text-white text-xl lg:text-2xl text-center font-bold">작성자</div>
