@@ -2,8 +2,11 @@
   <div>
     <NavbarWhite />
 
-    <!-- Introduction -->
+    <!-- Header Section -->
     <AboutHeader />
+
+    <!-- Founders -->
+    <AboutFounders />
 
   </div>
 </template>

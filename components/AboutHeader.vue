@@ -4,7 +4,7 @@
       About
     </div>
     <div class="about-description">
-      <div class="container flex flex-col justify-center items-center text-lg lg:text-xl p-8 lg:px-32 lg:h-screen/2 space-y-8">
+      <div class="container mx-auto flex flex-col justify-center items-center text-lg lg:text-xl p-8 lg:px-32 lg:h-screen/2 space-y-8">
         <div class="about-text">
           심플 사파리(Simple Safaris) John 과 Jin입니다.<br />
           2019년 설립된 심플 사파리는 여행을 사랑하고, 수준 높은 여행 경험 및 정보를 주변 친구들과 
