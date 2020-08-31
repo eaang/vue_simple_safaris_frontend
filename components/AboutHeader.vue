@@ -1,6 +1,6 @@
 <template>
   <div class="bg-local about-pic h-screen flex flex-col justify-end">
-    <div class="h-screen/2 text-white text-5xl text-center flex justify-center items-center">
+    <div class="h-screen/2 text-white text-5xl text-center flex justify-center items-center pt-8">
       About
     </div>
     <div class="about-description">

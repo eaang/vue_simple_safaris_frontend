@@ -49,7 +49,7 @@
       <!-- Menu Section -->
       <div class="menu-section">
         <div class="menu-title menu-header">
-          Contact
+          <a href="/contact">Contact</a>
         </div>
         <div class="menu-items">
           <div class="menu-item">070-4517-0225</div>

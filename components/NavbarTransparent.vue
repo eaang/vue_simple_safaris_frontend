@@ -30,10 +30,10 @@
             <a class="text-gray-100 hover:text-gray-400" href="#">Blog</a>
           </li>
           <li>
-            <button
+            <a
               class="border border-gray-100 font-bold text-gray-100 hover:bg-white hover:text-black px-4 py-2 rounded-lg"
-              href="#"
-            >Contact Us</button>
+              href="/contact"
+            >Contact Us</a>
           </li>
         </ul>
       </div>
