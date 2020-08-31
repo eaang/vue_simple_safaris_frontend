@@ -11,7 +11,7 @@
       <!-- Menu Section -->
       <div class="menu-section hidden xl:block">
         <div class="menu-title menu-header">
-          About
+          <a href="/about">About</a>
         </div>
         <div class="menu-items">
           <div class="menu-item"><a href="#">About us</a></div>

@@ -10,8 +10,9 @@
         <!-- Logo -->
         <div class="logo flex flex-1 lg:flex-none items-center justify-around lg:mr-8">
           <a href="/">
-            <img class="w-64" src="@/assets/logo-ft.png" />
-          </a>        </div>
+            <div class="logo-text text-2xl navbar-brown-text">SIMPLE SAFARIS</div>
+          </a>
+        </div>
         <!-- Spacer to centre logo on mobile screens -->
         <div class="w-8 sm:hidden"></div>
         <!-- Menu Links -->
