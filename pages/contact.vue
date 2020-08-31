@@ -9,10 +9,10 @@
           Contact us
         </div>
         <div class="container mx-auto bg-white absolute inset-x-0 bottom-0 pt-16 px-8 space-y-4">
-          <div class="italic text-3xl text-center dark-text">
+          <div class="italic text-2xl lg:text-3xl text-center dark-text">
             “아침에 일어날때 한번도 불쾌한 마음이 들지 않았던 그곳... 그곳이 바로 아프리카였다.”
           </div>
-          <div class="text-2xl text-center light-text">
+          <div class="text-xl lg:text-2xl text-center light-text">
             소설가 Ernest Hemmingway
           </div>
         </div>
@@ -25,7 +25,7 @@
 
     <!-- Contact Form -->
     <div class="container mx-auto">
-      <div class="text-center text-2xl dark-text my-16">
+      <div class="text-center text-xl lg:text-2xl dark-text px-8 my-16">
         심플사파리에서 당신을 위한 100% 맞춤 사파리 여행을 계획해 드립니다.<br />
         아래 사항들을 기재해 심플사파리에게 보내주세요.
       </div>
