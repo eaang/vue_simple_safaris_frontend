@@ -13,6 +13,18 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+  },
+  head() {
+    return {
+      title: 'Simple Safaris - About',
+    }
+  }
+}
+</script>
+
 <style>
 .title-dark {
   color: #1a1915;
