@@ -5,7 +5,7 @@
     <!-- Header Section -->
     <div class="">
       <div class="bg-local contact-pic h-screen/75 relative">
-        <div class="h-screen/2 text-white text-5xl text-center flex justify-center items-center">
+        <div class="h-screen/2 text-white text-5xl text-center flex justify-center items-center pt-8">
           Contact us
         </div>
         <div class="container mx-auto bg-white absolute inset-x-0 bottom-0 pt-16 px-8 space-y-4">

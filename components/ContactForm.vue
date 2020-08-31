@@ -73,8 +73,7 @@
               type="date"
             />
             <FormulateInput
-              wrapper-class="flex items-center mt-4 space-x-2"
-              input-class="styled-checkbox"
+              wrapper-class="flex items-center mt-4"
               label-class="grey-text text-lg"
               v-model="value"
               type="checkbox"
@@ -113,8 +112,8 @@
       <!-- Countries -->
       <FormulateInput
         v-model="value"
+        outer-class="mb-8"
         element-class="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5"
-        input-class="inline"
         :options="{
           탄자니아: '탄자니아', 케냐: '케냐', 남아공: '남아공', 보츠와나: '보츠와나',
           잠비아: '잠비아', 짐바브웨: '짐바브웨', 인도: '인도', 나미비아: '나미비아'
@@ -183,15 +182,19 @@
   .grey-text {
     color: #c0c0c0;
   }
-  .styled-checkbox {
+  .formulate-input-group-item .formulate-input-wrapper {
+    @apply mt-4 mb-2;
+    display: flex;
+  }
+  .formulate-input-element--checkbox input {
     position: absolute;
     opacity: 0;
     & + label {
       position: relative;
       cursor: pointer;
-      padding: 0;
     }
     & + label:before {
+      margin-right: .5rem;
       content: '';
       border: 1px solid #c7c7c1;
       display: inline-block;
@@ -201,13 +204,21 @@
       background: white;
     }
     &:hover + label:before {
-      background: #9c9780;
+      color: #9c9780;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      content: '✔';
     }
     &:focus + label:before {
       box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
     }
     &:checked + label:before {
-      background: #9c9780;
+      color: #9c9780;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      content: '✔';
     }
     &:disabled + label {
       color: #b8b8b8;
