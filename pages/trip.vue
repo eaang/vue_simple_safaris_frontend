@@ -16,14 +16,14 @@
     <!-- Map Here -->
     <div class="">
       <!-- Map Itself -->
-      <div class="container mx-auto mt-24 flex">
+      <div class="container mx-auto mt-24 lg:flex">
         <div class="map-container flex-1 h-screen/2 lg:h-screen/75">
           <img class="" src="@/assets/ic-pin.svg">
           <img class="" src="@/assets/ic-pin2.svg">
           <img class="" src="@/assets/ic-pin3.svg">
         </div>
         <!-- Map Buttons -->
-        <div class="space-y-4 ml-4 mb-32 self-end">
+        <div class="space-x-4 lg:space-x-0 lg:space-y-4 mt-4 ml-4 lg:mb-32 self-end flex justify-center lg:block">
           <div class="circle-icon">
             <font-awesome-icon class="text-2xl text-white" :icon="['fas', 'angle-double-up']"/>
           </div>
@@ -40,7 +40,7 @@
     </div>
 
     <!-- Schedule Highlights -->
-    <div class="container mt-24 mb-16 mx-auto">
+    <div class="container my-16 mx-auto">
       <div class="text-center font-bold text-5xl">Schedule Highlights</div>
     </div>
     <!-- Card Container -->
@@ -101,8 +101,22 @@
           </div>
         </div>
       </div>
-
+    <!-- End of card container -->
     </div>
+
+    <!-- Daily Schedule -->
+    <div class="container mx-auto flex space-x-16">
+      <!-- Main Section -->
+      <div class="border border-black h-64 w-2/3">
+
+      </div>
+
+      <!-- Summary Section -->
+      <div class="border border-black h-64 w-1/3">
+
+      </div>
+    </div>
+
   </div>
 </template>
 
