@@ -11,9 +11,3 @@
 
 <script>
 </script>
-
-<style>
-  .hero-pic {
-    background: url('../assets/images/hero-pic.jpg') no-repeat center center / cover;
-  }
-</style>
