@@ -44,7 +44,7 @@
       <div class="text-center font-bold text-5xl">Schedule Highlights</div>
     </div>
     <!-- Card Container -->
-    <div class="container mx-auto grid grid-flow-cols md:grid-cols-2 xl:grid-cols-4">
+    <div class="container mx-auto grid grid-flow-cols md:grid-cols-2 xl:grid-cols-4 mb-24">
       <!-- Card 1 -->
       <div class="">
         <div class="card-pic">
@@ -107,7 +107,7 @@
     <!-- Daily Schedule -->
     <div class="container mx-auto flex space-x-16 mb-24">
       <!-- Main Section -->
-      <div class="w-2/3 px-8">
+      <div class="w-full xl:w-2/3 px-8">
 
         <!-- Day Card -->
         <div class="shadow-xl mb-8">
@@ -131,7 +131,7 @@
 
         <!-- Day Card -->
         <div class="shadow-xl mb-8">
-          <div class="day-title background-light">Day 2</div>
+          <div class="day-title background-light">Day 2~3</div>
           <div class="day-place">Serengeti National Park</div>
         </div>
 
@@ -163,14 +163,14 @@
           </div>
           <!-- Text Container -->
           <div class="w-100 py-12 brown-bottom-border brown-right-border brown-left-border">
-            <div class="transport-content space-y-8 w-1/3 mx-auto">
-              <div class="text-dark text-xl flex">
+            <div class="transport-content space-y-8 mx-auto">
+              <div class="text-dark text-xl flex justify-center">
                 <div class="w-10">
                   <font-awesome-icon class="text-brown text-2xl" :icon="['fas', 'plane']"/>
                 </div>
                 Arusha to Serengeti
               </div>
-              <div class="text-dark text-xl flex">
+              <div class="text-dark text-xl flex justify-center">
                 <div class="w-10">
                   <font-awesome-icon class="text-brown text-2xl" :icon="['fas', 'car']"/>
                 </div>
@@ -198,11 +198,11 @@
             
             <div class="flex justify-between items-center">
               <!-- Left Nav -->
-              <div class="w-12 h-24 brown-top-border brown-right-border brown-bottom-border flex justify-center items-center">
+              <div class="hidden md:block w-12 h-24 brown-top-border brown-right-border brown-bottom-border flex justify-center items-center">
                 <font-awesome-icon class="text-brown text-4xl" :icon="['fas', 'chevron-left']"/>
               </div>
               <!-- Hotel Card -->
-              <div class="w-1/2 mx-auto shadow-xl">
+              <div class="w-4/5 md:w-1/2 mx-auto shadow-xl">
                 <div class="">
                   <img class="object-contain" src="https://picsum.photos/800/600">
                 </div>
@@ -216,7 +216,7 @@
                 </div>
               </div>
               <!-- Right Nav -->
-              <div class="w-12 h-24 brown-top-border brown-left-border brown-bottom-border flex justify-center items-center">
+              <div class="hidden md:block w-12 h-24 brown-top-border brown-left-border brown-bottom-border flex justify-center items-center">
                 <font-awesome-icon class="text-brown text-4xl" :icon="['fas', 'chevron-right']"/>
               </div>
             </div>
@@ -227,10 +227,239 @@
           </div>
         </div>
 
+        <!-- Activity Box -->
+        <div class="mt-24 mb-8">
+          <div class="text-center text-3xl font-bold text-dark flex justify-between">
+            <div class="grid grid-rows-2 w-1/3">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-left-border"></div>
+            </div>
+            <span class="bg-white px-8 top-title">Activity</span>
+            <div class="grid grid-rows-2 w-1/3">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-right-border"></div>
+            </div>
+          </div>
+          <!-- Text Container -->
+          <div class="w-100 py-12 brown-bottom-border brown-right-border brown-left-border">
+            <div class="space-y-8 w-1/3 mx-auto">
+              <div class="text-dark text-xl text-center">
+                 열기구 탑승 
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Info Section -->
+        <div class="space-y-8">
+          <img class="object-cover" src="https://picsum.photos/1280/760">
+          <div>
+            <div class="day-description">
+              설명문구 추가설명문구 추가설명문구 추가설명문구 추가설명문구 추가 
+              설명문구 추가설명문구 추가
+            </div>
+          </div>
+        </div>
+
+        <!-- Day Card -->
+        <div class="shadow-xl mt-32 mb-8">
+          <div class="day-title background-light">Day 4~5</div>
+          <div class="day-place">Zanzibar Stonetown</div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="space-y-8">
+          <img class="object-cover" src="https://picsum.photos/1280/760">
+          <div>
+            <div class="day-description-title text-dark-brown">Zanzibar Stonetown</div>
+            <div class="day-description">
+              옛 건물들이 잘 보존된 고풍스러운 도시, 잔지바르의 스톤타운을 구경하는 
+              시간입니다. 좁고 구불구불한 미로와 같은 골목길을 거닐며, 이슬람의 정취가 
+              물씬 풍기는 스톤타운을 마음껏 즐길 수 있습니다.
+            </div>
+          </div>
+        </div>
+        <!-- Transport Box -->
+        <div class="transportation-box my-24">
+          <div class="text-center text-3xl font-bold text-dark flex justify-between">
+            <div class="grid grid-rows-2 w-1/3">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-left-border"></div>
+            </div>
+            <span class="bg-white px-8 top-title">Transportation</span>
+            <div class="grid grid-rows-2 w-1/3">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-right-border"></div>
+            </div>
+          </div>
+
+          <!-- Text Container -->
+          <div class="w-100 py-12 brown-bottom-border brown-right-border brown-left-border">
+            <div class="transport-content space-y-8 mx-auto">
+              <div class="text-dark text-xl flex justify-center">
+                <div class="w-10">
+                  <font-awesome-icon class="text-brown text-2xl" :icon="['fas', 'plane']"/>
+                </div>
+                Seregenti to Stonetown
+              </div>
+              <div class="text-dark text-xl flex justify-center">
+                <div class="w-10">
+                  <font-awesome-icon class="text-brown text-2xl" :icon="['fas', 'car']"/>
+                </div>
+                Zanzibar Airport to Stonetown
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Staying Box -->
+        <div class="my-24">
+          <div class="text-center text-3xl font-bold text-dark flex justify-between">
+            <div class="grid grid-rows-2 w-2/5">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-left-border"></div>
+            </div>
+            <span class="bg-white px-8 top-title">Stay</span>
+            <div class="grid grid-rows-2 w-2/5">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-right-border"></div>
+            </div>
+          </div>
+          <!-- Text Container -->
+          <div class="w-100 py-12 brown-bottom-border brown-right-border brown-left-border">
+            
+            <div class="flex justify-between items-center">
+              <!-- Left Nav -->
+              <div class="hidden md:block w-12 h-24 brown-top-border brown-right-border brown-bottom-border flex justify-center items-center">
+                <font-awesome-icon class="text-brown text-4xl" :icon="['fas', 'chevron-left']"/>
+              </div>
+              <!-- Hotel Card -->
+              <div class="w-4/5 md:w-1/2 w-1/2 mx-auto shadow-xl">
+                <div class="">
+                  <img class="object-contain" src="https://picsum.photos/800/600">
+                </div>
+                <div class="flex flex-col justify-center items-center p-8 space-y-8">
+                  <div class="text-dark-brown text-3xl">Park Hyatt Zanzibar</div>
+                  <div class="text-brown text-3xl"><span class="font-bold">$$$</span>$$</div>
+                  <div class="text-brown flex justify-center">
+                    <span class="pr-4 text-xs">more</span>
+                    <img class="object-contain" src="@/assets/more.svg" />
+                  </div>
+                </div>
+              </div>
+              <!-- Right Nav -->
+              <div class="hidden md:block w-12 h-24 brown-top-border brown-left-border brown-bottom-border flex justify-center items-center">
+                <font-awesome-icon class="text-brown text-4xl" :icon="['fas', 'chevron-right']"/>
+              </div>
+            </div>
+
+            <!-- Carousel Dots -->
+            <CarouselDotsBrown class="mt-8" :num-labels="2" />
+
+          </div>
+        </div>
+
+        <!-- Day Card -->
+        <div class="shadow-xl mt-32 mb-8">
+          <div class="day-title background-light">Day 6~8</div>
+          <div class="day-place">Zanzibar Nungwi</div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="space-y-8">
+          <img class="object-cover" src="https://picsum.photos/1280/760">
+          <div>
+            <div class="day-description-title text-dark-brown">Zanzibar Nungwi</div>
+            <div class="day-description">
+              잔지바르 동쪽에 위치한 능위는 아름다운 바다색을 가지고 있기로 유명한 지역입니다. 
+              스노쿨링와 스쿠버다이빙 등 다양한 해양 레포츠도 즐길 수 있으며, 럭셔리 리조트에서 
+              편안한 휴식시간을 가질 수도 있습니다.
+            </div>
+          </div>
+        </div>
+        <!-- Transport Box -->
+        <div class="transportation-box my-24">
+          <div class="text-center text-3xl font-bold text-dark flex justify-between">
+            <div class="grid grid-rows-2 w-1/3">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-left-border"></div>
+            </div>
+            <span class="bg-white px-8 top-title">Transportation</span>
+            <div class="grid grid-rows-2 w-1/3">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-right-border"></div>
+            </div>
+          </div>
+
+          <!-- Text Container -->
+          <div class="w-100 py-12 brown-bottom-border brown-right-border brown-left-border">
+            <div class="transport-content space-y-8 mx-auto">
+              <div class="text-dark text-xl flex justify-center">
+                <div class="w-10">
+                  <font-awesome-icon class="text-brown text-2xl" :icon="['fas', 'car']"/>
+                </div>
+                Nungwi to Zanzibar Airport
+              </div>
+              <div class="text-dark text-xl flex justify-center">
+                <div class="w-10">
+                  <font-awesome-icon class="text-brown text-2xl" :icon="['fas', 'car']"/>
+                </div>
+                Stonetown to Nungwi
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Staying Box -->
+        <div class="mt-24">
+          <div class="text-center text-3xl font-bold text-dark flex justify-between">
+            <div class="grid grid-rows-2 w-2/5">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-left-border"></div>
+            </div>
+            <span class="bg-white px-8 top-title">Stay</span>
+            <div class="grid grid-rows-2 w-2/5">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-right-border"></div>
+            </div>
+          </div>
+          <!-- Text Container -->
+          <div class="w-100 py-12 brown-bottom-border brown-right-border brown-left-border">
+            
+            <div class="flex justify-between items-center">
+              <!-- Left Nav -->
+              <div class="hidden md:block w-12 h-24 brown-top-border brown-right-border brown-bottom-border flex justify-center items-center">
+                <font-awesome-icon class="text-brown text-4xl" :icon="['fas', 'chevron-left']"/>
+              </div>
+              <!-- Hotel Card -->
+              <div class="w-4/5 md:w-1/2 w-1/2 mx-auto shadow-xl">
+                <div class="">
+                  <img class="object-contain" src="https://picsum.photos/800/600">
+                </div>
+                <div class="flex flex-col justify-center items-center p-8 space-y-8">
+                  <div class="text-dark-brown text-3xl">Park Hyatt Zanzibar</div>
+                  <div class="text-brown text-3xl"><span class="font-bold">$$$</span>$$</div>
+                  <div class="text-brown flex justify-center">
+                    <span class="pr-4 text-xs">more</span>
+                    <img class="object-contain" src="@/assets/more.svg" />
+                  </div>
+                </div>
+              </div>
+              <!-- Right Nav -->
+              <div class="hidden md:block w-12 h-24 brown-top-border brown-left-border brown-bottom-border flex justify-center items-center">
+                <font-awesome-icon class="text-brown text-4xl" :icon="['fas', 'chevron-right']"/>
+              </div>
+            </div>
+
+            <!-- Carousel Dots -->
+            <CarouselDotsBrown class="mt-8" :num-labels="2" />
+
+          </div>
+        </div>
       </div>
 
       <!-- Summary Section -->
-      <div class="h-64 w-1/3 space-y-2">
+      <div class="hidden xl:block h-64 w-1/3 space-y-2">
         <div class="selected-item-outer background-pale">
           <div class="selected-item-inner background-dark text-white text-lg font-bold">Day 1: Arusha</div>
         </div>
