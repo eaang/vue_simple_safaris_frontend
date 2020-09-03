@@ -120,7 +120,7 @@
           <img class="object-cover" src="https://picsum.photos/1280/760">
           <img class="object-cover" src="https://picsum.photos/1280/760">
           <div>
-            <div class="day-description-title">Arusha</div>
+            <div class="day-description-title text-dark-brown">Arusha</div>
             <div class="day-description">
               아루샤는 킬리만자 신과 메루산이 보이는 탄자니아 사파리 여행의 
               베이스캠프와 같은 곳입니다. 장시간 국제선 비행으로 지친 몸을 
@@ -136,10 +136,10 @@
         </div>
 
         <!-- Info Section -->
-        <div class="space-y-8 mb-32">
+        <div class="space-y-8">
           <img class="object-cover" src="https://picsum.photos/1280/760">
           <div>
-            <div class="day-description-title">Serengeti National Park</div>
+            <div class="day-description-title text-dark-brown">Serengeti National Park</div>
             <div class="day-description">
               상상하지 못할 정도로 다양한 야생동물이 살고 있는 끝없는 평야, 세렝게티! 
               수백만 마리의 누떼 (Wildebeest)의 대이동( The Great Migration)하는 
@@ -148,17 +148,17 @@
           </div>
         </div>
 
-        <!-- Transport Point -->
-        <div class="transportation-box">
+        <!-- Transport Box -->
+        <div class="transportation-box my-24">
           <div class="text-center text-3xl font-bold text-dark flex justify-between">
             <div class="grid grid-rows-2 w-1/3">
               <div class=""></div>
-              <div class="brown-top-border brown-left-border"></div>
+              <div class="brown-top-border-big brown-left-border"></div>
             </div>
             <span class="bg-white px-8 top-title">Transportation</span>
             <div class="grid grid-rows-2 w-1/3">
               <div class=""></div>
-              <div class="brown-top-border brown-right-border"></div>
+              <div class="brown-top-border-big brown-right-border"></div>
             </div>
           </div>
           <!-- Text Container -->
@@ -177,6 +177,53 @@
                 Seregenti to 숙소         
               </div>
             </div>
+          </div>
+        </div>
+
+        <!-- Staying Box -->
+        <div class="my-24">
+          <div class="text-center text-3xl font-bold text-dark flex justify-between">
+            <div class="grid grid-rows-2 w-2/5">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-left-border"></div>
+            </div>
+            <span class="bg-white px-8 top-title">Stay</span>
+            <div class="grid grid-rows-2 w-2/5">
+              <div class=""></div>
+              <div class="brown-top-border-big brown-right-border"></div>
+            </div>
+          </div>
+          <!-- Text Container -->
+          <div class="w-100 py-12 brown-bottom-border brown-right-border brown-left-border">
+            
+            <div class="flex justify-between items-center">
+              <!-- Left Nav -->
+              <div class="w-12 h-24 brown-top-border brown-right-border brown-bottom-border flex justify-center items-center">
+                <font-awesome-icon class="text-brown text-4xl" :icon="['fas', 'chevron-left']"/>
+              </div>
+              <!-- Hotel Card -->
+              <div class="w-1/2 mx-auto shadow-xl">
+                <div class="">
+                  <img class="object-contain" src="https://picsum.photos/800/600">
+                </div>
+                <div class="flex flex-col justify-center items-center p-8 space-y-8">
+                  <div class="text-dark-brown text-3xl">Sigita Sasakwa Lodge</div>
+                  <div class="text-brown font-bold text-3xl">$$$$$</div>
+                  <div class="text-brown flex justify-center">
+                    <span class="pr-4 text-xs">more</span>
+                    <img class="object-contain" src="@/assets/more.svg" />
+                  </div>
+                </div>
+              </div>
+              <!-- Right Nav -->
+              <div class="w-12 h-24 brown-top-border brown-left-border brown-bottom-border flex justify-center items-center">
+                <font-awesome-icon class="text-brown text-4xl" :icon="['fas', 'chevron-right']"/>
+              </div>
+            </div>
+
+            <!-- Carousel Dots -->
+            <CarouselDotsBrown class="mt-8" :num-labels="2" />
+
           </div>
         </div>
 
@@ -212,17 +259,20 @@
 </template>
 
 <style>
-  .brown-left-border {
-    border-left: 2px solid #bbb599;
-  }
-  .brown-top-border {
+  .brown-top-border-big {
     border-top: 2px solid #bbb599;
   }
+  .brown-top-border {
+    border-top: 1px solid #bbb599;
+  }
+  .brown-left-border {
+    border-left: 1px solid #bbb599;
+  }
   .brown-right-border {
-    border-right: 2px solid #bbb599;
+    border-right: 1px solid #bbb599;
   }
   .brown-bottom-border {
-    border-bottom: 2px solid #bbb599;
+    border-bottom: 1px solid #bbb599;
   }
   .hero-pic {
     background: url('../assets/images/tanzania01.jpg') no-repeat center center / cover;
@@ -241,6 +291,9 @@
   }
   .text-brown {
     color: #9c9780;
+  }
+  .text-dark-brown {
+    color: #575446;
   }
   .background-dark {
     background-color: #646152;
@@ -276,7 +329,6 @@
     @apply text-xl py-6 flex justify-center items-center;
   }
   .day-description-title {
-    color: #575446;
     @apply text-2xl my-8;
   }
   .day-description {
