@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="54">
+    <defs>
+        <filter id="prefix__a" width="41" height="54" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2" in="SourceAlpha"/>
+            <feGaussianBlur result="blurOut" stdDeviation="2.646"/>
+            <feFlood flood-color="#000" result="floodOut"/>
+            <feComposite in="floodOut" in2="blurOut" operator="atop"/>
+            <feComponentTransfer>
+                <feFuncA slope=".25" type="linear"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <path fill="#EFEDE6" fill-rule="evenodd" d="M20 6c6.627 0 12 5.372 12 12 0 6.627-5.373 12-12 12-6.628 0-12-5.373-12-12 0-6.628 5.372-12 12-12z"/>
+    <g filter="url(#prefix__a)">
+        <path fill="#48422A" fill-rule="evenodd" d="M18.999 4.029C11.921 4.513 6.261 10.32 5.996 17.35c-.166 4.414 1.749 8.388 4.847 11.041.832.713 1.591 1.505 2.291 2.347 2.118 2.549 5.548 7.524 6.858 14.262 1.309-6.735 4.738-11.71 6.856-14.26.687-.827 1.426-1.612 2.248-2.31 2.999-2.547 4.901-6.326 4.901-10.548 0-7.995-6.814-14.412-14.998-13.853zm.993 23.637c-5.486 0-9.933-4.41-9.933-9.849 0-5.44 4.447-9.85 9.933-9.85 5.485 0 9.933 4.41 9.933 9.85 0 5.439-4.448 9.849-9.933 9.849z"/>
+    </g>
+    <text x="16" y="22.27" fill="#48422A" font-family="Noto Sans CJK KR" font-size="12" font-weight="bold">
+        3
+    </text>
+</svg>

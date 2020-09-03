@@ -85,6 +85,9 @@
 </template>
 
 <style>
+.hero-pic {
+  background: url('../assets/images/hero-pic.jpg') no-repeat center center / cover;
+}
 .title-dark {
   color: #1a1915;
 }

@@ -25,7 +25,7 @@
             <a class="navbar-dark-text hover:text-gray-400" href="#">Destinations</a>
           </li>
           <li class="mr-8">
-            <a class="navbar-dark-text hover:text-gray-400" href="#">Trip Ideas</a>
+            <a class="navbar-dark-text hover:text-gray-400" href="/trip">Trip Ideas</a>
           </li>
           <li class="mr-8">
             <a class="navbar-dark-text hover:text-gray-400" href="#">Blog</a>
