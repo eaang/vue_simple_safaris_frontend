@@ -72,6 +72,24 @@ export default {
          }
        ]
       }
+    ],
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: ' AIzaSyDKw5pDEPNd1xc8NYfsACVmv05bgV7fgtM ',
+          authDomain: 'simplesafaris-3a35c.web.app',
+          databaseURL: '',
+          projectId: 'simplesafaris-3a35c',
+          storageBucket: '',
+          messagingSenderId: '',
+          appId: '1:862428878222:web:0dceb4846f985fa8b000df',
+          measurementId: ''
+        },
+        services: {
+          auth: true // Just as example. Can be any other service.
+        }
+      }
     ]
   ],
 
